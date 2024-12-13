@@ -1,0 +1,16 @@
+.all-marble-image-container{
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 112, 112);
+}
+.marble-images-all{
+    height: 90%;
+    width: 90%;
+    background-size: cover;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}

@@ -1,0 +1,76 @@
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 97vh; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .captions-container {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%; /* Default width */
+    max-width: 800px; /* Maximum width for larger screens */
+  }
+  
+  .scrolling-caption {
+    margin: 15px 0; /* Add spacing between captions */
+    font-family: 'Poppins', sans-serif; /* Stylish font */
+    font-size: 2.5rem; /* Base font size */
+    font-weight: bold;
+    color: #ffffff; /* White text for contrast */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8); /* Glow effect */
+    letter-spacing: 1.5px; /* Slightly spaced letters */
+    background: linear-gradient(90deg, #ff6f61, #fdfd96); /* Gradient text effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Gradient effect */
+  }
+  
+  /* Responsive Adjustments */
+  
+  /* For tablets and small laptops */
+  @media (max-width: 1024px) {
+    .captions-container {
+      width: 85%; /* Adjust width */
+    }
+    .scrolling-caption {
+      font-size: 2rem; /* Smaller font for tablets */
+    }
+  }
+  
+  /* For large mobile screens */
+  @media (max-width: 768px) {
+    .captions-container {
+      width: 90%; /* Reduce width */
+    }
+    .scrolling-caption {
+      font-size: 1.8rem; /* Smaller font for mobile screens */
+    }
+  }
+  
+  /* For small mobile screens */
+  @media (max-width: 426px) {
+    .captions-container {
+      width: 95%; /* Full width for small screens */
+    }
+    .scrolling-caption {
+      font-size: 1.4rem; /* Further reduction for tiny screens */
+      letter-spacing: 1px; /* Adjust letter spacing */
+    }
+  }
+  

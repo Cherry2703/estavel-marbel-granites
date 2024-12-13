@@ -1,0 +1,108 @@
+
+.choose-us-section {
+    padding: 40px 20px;
+    background-color: #302f2f; /* Light background color */
+    text-align: center;
+  }
+  
+  .choose-us-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333; 
+    margin-left: 15px;
+    border-bottom: 2px solid #ff9800;
+    color: #ff9800;
+  }
+  .heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #ff6f61;
+  }
+  .icon-feature{
+    font-size: 45px;
+    margin-right: 15px;
+
+  }
+  .feature-content-heading-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff6f61; 
+  }
+  
+  .feature-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #555; 
+    line-height: 1.6;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .choose-us-title {
+      font-size: 2rem;
+    }
+  
+    .feature-card {
+      padding: 15px;
+    }
+  
+    .feature-title {
+      font-size: 1.3rem;
+    }
+  
+    .feature-description {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 426px) {
+    .choose-us-title {
+      font-size: 1.8rem;
+    }
+  
+    .feature-title {
+      font-size: 1.2rem;
+    }
+  
+    .feature-description {
+      font-size: 0.85rem;
+    }
+  }
+  
+
+  /* hjdfbeubu */

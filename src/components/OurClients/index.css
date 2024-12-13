@@ -1,0 +1,207 @@
+/* .our-clients-video-section{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    background-color: #302f2f; 
+    color: #fff;
+    padding: 0px;
+}
+.clients-container{
+    height: 50vh;
+    width: 50%;
+    padding: 15px;
+}
+.our-clients-background-video{
+    height: 50vh;
+    width: 50vw;
+    background-size: cover;
+    padding: 15px;
+}
+.ourclients-video{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+} */
+
+
+
+
+
+/* Our Clients Section Styles */
+
+.our-clients-video-section {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+    overflow: hidden;
+  }
+  
+  .clients-container {
+    z-index: 2;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .clients-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #74b9ff;
+  }
+  
+  .clients-subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .clients-logos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    z-index: 2;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .client-logo-item {
+    font-size: 1.1rem;
+    /* padding: 15px 30px; */
+    border-radius: 8px;
+    background: rgba(250, 249, 249, 0.2);
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .client-logo-item:hover {
+    transform: scale(1.1);
+    background: rgba(247, 249, 252, 0.3);
+  }
+  
+  .our-clients-background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .ourclients-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+  }
+  .company-logo-image{
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: color-burn;
+    background: transparent;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+  
+  
+  @media (min-width: 1025px) {
+    .clients-title {
+      font-size: 1.4rem;
+    }
+  
+    .clients-subtitle {
+      font-size: 2.5rem;
+    }
+  
+    .clients-container {
+      max-width: 1200px; /* Increased width of the container */
+      margin: 0 auto; /* Centered the container */
+      padding: 0 20px;
+    }
+  
+    .client-logo-item {
+      font-size: 1.2rem;
+      padding: 20px 40px; /* Increased padding for larger logos */
+    }
+  }
+  
+  /* Tablets (portrait and landscape) */
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .clients-title {
+      font-size: 1.2rem;
+    }
+  
+    .clients-subtitle {
+      font-size: 2.2rem;
+    }
+  
+    .clients-container {
+      padding: 0 15px;
+    }
+  
+    .client-logo-item {
+      font-size: 1rem;
+      padding: 12px 25px;
+    }
+  }
+  
+  /* Mobile (landscape and portrait) */
+  @media (max-width: 767px) and (min-width: 480px) {
+    .clients-title {
+      font-size: 1.1rem;
+    }
+  
+    .clients-subtitle {
+      font-size: 1.8rem;
+    }
+  
+    .clients-container {
+      padding: 0 10px;
+    }
+  
+    .client-logo-item {
+      font-size: 0.95rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Small mobile screens */
+  @media (max-width: 479px) {
+    .clients-title {
+      font-size: 1rem;
+    }
+  
+    .clients-subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .client-logo-item {
+      font-size: 0.85rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  /* Very small mobile screens */
+  @media (max-width: 320px) {
+    .clients-title {
+      font-size: 0.9rem;
+    }
+  
+    .clients-subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .client-logo-item {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  

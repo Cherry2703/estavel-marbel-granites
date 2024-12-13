@@ -1,0 +1,110 @@
+/* Container Styling */
+.what-we-offer {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #000; /* Black background for the section */
+  }
+  
+  .offer-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient text color */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  button {
+    background-color: #feb47b;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #ff7e5f; /* Change to a darker shade on hover */
+  }
+  
+  /* Card Container */
+  .offer-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  /* Card Styling */
+  .offer-card {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 250px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Stronger shadow effect on hover */
+  }
+  
+  /* Image Styling */
+  .offer-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 20px;
+    border: 5px solid #feb47b; /* Border around the circular image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Text Styling */
+  .offer-details {
+    text-align: center;
+  }
+  
+  .offer-heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .offer-heading:hover {
+    color: #feb47b; /* Hover effect for the title */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .offer-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .offer-card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  
